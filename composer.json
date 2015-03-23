@@ -1,5 +1,5 @@
 {
-    "name": "fenrizbes/typograph-bundle",
+    "name": "it-blaster/typograph-bundle",
     "type": "symfony-bundle",
     "description": "The typograph bundle for Symfony based on E. Muravjev's Typograph",
     "keywords": ["symfony", "typograph"],
