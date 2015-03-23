@@ -20,5 +20,6 @@
             "Fenrizbes\\TypographBundle": ""
         }
     },
+    "minimum-stability": "dev",
     "target-dir": "Fenrizbes/TypographBundle"
 }
