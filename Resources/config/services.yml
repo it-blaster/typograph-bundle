@@ -1,0 +1,10 @@
+services:
+    fenrizbes_typograph:
+        class:     Fenrizbes\TypographBundle\Service\TypographService
+        arguments: [ %fenrizbes_typograph.configs% ]
+
+    twig.extension.typograph:
+        class:     Fenrizbes\TypographBundle\Twig\TypographTwigExtension
+        arguments: [ @fenrizbes_typograph ]
+        tags:
+            - { name: twig.extension }

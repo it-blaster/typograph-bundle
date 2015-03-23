@@ -1,0 +1,24 @@
+{
+    "name": "fenrizbes/typograph-bundle",
+    "type": "symfony-bundle",
+    "description": "The typograph bundle for Symfony based on E. Muravjev's Typograph",
+    "keywords": ["symfony", "typograph"],
+    "homepage": "https://github.com/it-blaster/typograph-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Gashuk",
+            "email": "fenrizbes@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.1"
+    },
+    "autoload": {
+        "psr-0": { 
+            "Fenrizbes\\TypographBundle": ""
+        }
+    },
+    "target-dir": "Fenrizbes/TypographBundle"
+}
