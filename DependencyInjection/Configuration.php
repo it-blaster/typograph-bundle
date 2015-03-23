@@ -25,6 +25,7 @@ class Configuration implements ConfigurationInterface
                     ->defaultValue(array(
                         'default' => array(
                             'Text.paragraphs'           => 'off',
+                            'Text.breakline'            => 'off',
                             'OptAlign.oa_oquote'        => 'off',
                             'OptAlign.oa_obracket_coma' => 'off'
                         )
