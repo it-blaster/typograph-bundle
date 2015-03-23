@@ -1,5 +1,7 @@
 # Typograph bundle
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/it-blaster/typograph-bundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/it-blaster/typograph-bundle/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/it-blaster/typograph-bundle/badges/build.png?b=master)](https://scrutinizer-ci.com/g/it-blaster/typograph-bundle/build-status/master)
+
 The typograph bundle for Symfony based on [E. Muravjev's Typograph](http://mdash.ru)
 
 ## Installation
