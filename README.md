@@ -6,7 +6,7 @@ The typograph bundle for Symfony based on [E. Muravjev's Typograph](http://mdash
 
 ## Installation
 
-Add it-blaster/typograph-bundle to your `composer.json` file and run `composer install`
+Add it-blaster/typograph-bundle to your `composer.json` file and run `composer`
 
 ```json
 ...
@@ -20,7 +20,7 @@ And register the bundle in your `AppKernel.php`
 
 ```php
 ...
-new new Fenrizbes\TypographBundle\FenrizbesTypographBundle(),
+new Fenrizbes\TypographBundle\FenrizbesTypographBundle(),
 ...
 ```
 
