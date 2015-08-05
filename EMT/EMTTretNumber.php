@@ -35,16 +35,16 @@ class EMTTretNumber extends EMTTret
 				'pattern' 		=> '/([^a-zA-Z><]|^)(\&times\;)?(\d+)(\040*)(x|х)(\040*)(\d+)([^a-zA-Z><]|$)/u',
 				'replacement' 	=> '\1\2\3&times;\7\8'
 			),
-		'numeric_sub' => array(
-				'description'	=> 'Нижний индекс',
-				'pattern' 		=> '/([a-zа-яё0-9])\_([\d]{1,3})([^а-яёa-z0-9]|$)/ieu',
-				'replacement' 	=> '$m[1] . $this->tag($this->tag($m[2],"small"),"sub") . $m[3]'
-			),
-		'numeric_sup' => array(
-				'description'	=> 'Верхний индекс',
-				'pattern' 		=> '/([a-zа-яё0-9])\^([\d]{1,3})([^а-яёa-z0-9]|$)/ieu',
-				'replacement' 	=> '$m[1] . $this->tag($this->tag($m[2],"small"),"sup") . $m[3]'
-			),
+//		'numeric_sub' => array(
+//				'description'	=> 'Нижний индекс',
+//				'pattern' 		=> '/([a-zа-яё0-9])\_([\d]{1,3})([^а-яёa-z0-9]|$)/ieu',
+//				'replacement' 	=> '$m[1] . $this->tag($this->tag($m[2],"small"),"sub") . $m[3]'
+//			),
+//		'numeric_sup' => array(
+//				'description'	=> 'Верхний индекс',
+//				'pattern' 		=> '/([a-zа-яё0-9])\^([\d]{1,3})([^а-яёa-z0-9]|$)/ieu',
+//				'replacement' 	=> '$m[1] . $this->tag($this->tag($m[2],"small"),"sup") . $m[3]'
+//			),
 		'simple_fraction' => array(
 				'description'	=> 'Замена дробей 1/2, 1/4, 3/4 на соответствующие символы',
 				'pattern' 		=> array('/(^|\D)1\/(2|4)(\D)/', '/(^|\D)3\/4(\D)/'),
