@@ -37,11 +37,11 @@ class EMTTretEtc extends EMTTret
 		
 		
 				
-		'word_sup' => array(
-				'description'	=> 'Надстрочный текст после символа ^',
-				'pattern' 		=> '/((\s|\&nbsp\;|^)+)\^([a-zа-яё0-9\.\:\,\-]+)(\s|\&nbsp\;|$|\.$)/ieu',
-				'replacement' 	=> '"" . $this->tag($this->tag($m[3],"small"),"sup") . $m[4]'
-			),					
+//		'word_sup' => array(
+//				'description'	=> 'Надстрочный текст после символа ^',
+//				'pattern' 		=> '/((\s|\&nbsp\;|^)+)\^([a-zа-яё0-9\.\:\,\-]+)(\s|\&nbsp\;|$|\.$)/ieu',
+//				'replacement' 	=> '"" . $this->tag($this->tag($m[3],"small"),"sup") . $m[4]'
+//			),					
 		'century_period' => array(
 				'description'	=> 'Тире между диапозоном веков',
 				'pattern' 		=> '/(\040|\t|\&nbsp\;|^)([XIV]{1,5})(-|\&mdash\;)([XIV]{1,5})(( |\&nbsp\;)?(в\.в\.|вв\.|вв|в\.|в))/eu',
