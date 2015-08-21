@@ -46,7 +46,7 @@ class EMTTretDate extends EMTTret
 					'/(\s|\&nbsp\;)([0-9]{2}\.[0-9]{2}\.([0-9]{2})?[0-9]{2})(\s|\&nbsp\;|\.(\s|\&nbsp\;|$)|$)/eiu',
 					),
 				'replacement' 	=> array(
-					'$m[1].$this->tag($m[2]." г.","span", array("class"=>"nowrap")).($m[5]==="."?"":" ")',
+					'$m[1].$this->tag($m[2]." г.","span", array("class"=>"nowrap"))." "',
 					'$m[1].$this->tag($m[2],"span", array("class"=>"nowrap")).$m[4]',
 					),
 			),
